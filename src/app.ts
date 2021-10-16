@@ -15,7 +15,7 @@ const redirect_uri = `${process.env.APP_URI}/callback/`;
 const refresh_token_uri = `${process.env.APP_URI}/refresh_token/`;
 
 app.get('/', ({ res }) => {
-    res.send('/index.html');
+    res.redirect('/login');
 });
 
 app.get('/login', ({ res }) => {
