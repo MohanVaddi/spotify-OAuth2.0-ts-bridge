@@ -19,7 +19,7 @@
 ### Create ```.env``` file and add:
      SPOTIFY_CLIENT_ID = '<your spotify client id>'
      SPOTIFY_CLIENT_SECRET = '<your spotify client secret>'
-     SPOTIFY_CLIENT_REFRESH_TOKEN = '<redirect uri>'
+     SPOTIFY_CLIENT_REFRESH_TOKEN = '<Refresh Token if available upfront>'
      APP_URI = '<url of your app with port included>'
      FRONTEND_APP_URI = '<url of your frontend app>'
      
